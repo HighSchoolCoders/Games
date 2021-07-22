@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../src/css/main.min.css" />
+    <title>Rubik's Race</title>
+  </head>
+  <body style="user-select: none">
+    <div id="timer">0:00</div>
+    <div class="app">
+      <div class="container">
+        <div class="lid">
+          <div class="border_outer"></div>
+          <div class="border_inner"></div>
+          <div class="text">
+            <p>RUBIK'S</p>
+            <p>RACE</p>
+          </div>
+        </div>
+        <div class="game-board"></div>
+      </div>
+      <div class="randomizer">
+        <div class="cells">
+          <div class="cell yellow"></div>
+          <div class="cell yellow"></div>
+          <div class="cell yellow"></div>
+          <div class="cell blue"></div>
+          <div class="cell blue"></div>
+          <div class="cell blue"></div>
+          <div class="cell green"></div>
+          <div class="cell green"></div>
+          <div class="cell orange"></div>
+        </div>
+        <p>RANDOMIZER</p>
+      </div>
+    </div>
+
+    <footer>
+      <a href="../../"
+        ><svg viewBox="0 0 320 512" class="svg-inline--fa fa-w-10 back">
+          <g>
+            <path
+              fill="currentColor"
+              d="M285.59 410.4a23.93 23.93 0 0 1 0 33.84l-22.7 22.65a24 24 0 0 1-33.94 0l-154.31-154L131.42 256z"
+              class="fa-secondary"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M262.85 45.06l22.7 22.65a23.93 23.93 0 0 1 0 33.84L74.58 312.9l-40-40a23.94 23.94 0 0 1 0-33.84l194.33-194a24 24 0 0 1 33.94 0z"
+              class="fa-primary"
+            ></path>
+          </g>
+        </svg>
+      </a>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        class="svg-inline--fa fa-redo-alt fa-w-16 fa-7x"
+      >
+        <g class="fa-group">
+          <path
+            fill="currentColor"
+            d="M422.66 422.66a12 12 0 0 1 0 17l-.49.46A247.11 247.11 0 0 1 256 504C119 504 8 393 8 256 8 119.19 119.65 7.76 256.46 8a247.12 247.12 0 0 1 170.85 68.69l-56.62 56.56A166.73 166.73 0 0 0 257.49 88C165.09 87.21 87.21 162 88 257.45 88.76 348 162.18 424 256 424a166.77 166.77 0 0 0 110.63-41.56A12 12 0 0 1 383 383z"
+            class="fa-secondary"
+          ></path>
+          <path
+            fill="currentColor"
+            d="M504 57.94V192a24 24 0 0 1-24 24H345.94c-21.38 0-32.09-25.85-17-41L463 41c15.15-15.15 41-4.44 41 16.94z"
+            class="fa-primary"
+          ></path>
+        </g>
+      </svg>
+    </footer>
+    <script src="../../js/GSAP.js"></script>
+    <script src="../../js/script.js"></script>
+  </body>
+</html>
